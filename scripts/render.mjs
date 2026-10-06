@@ -183,7 +183,11 @@ values.bannerArtwork = profile.biographyBanner
     escape(profile.biographyBanner) +
     '" alt="Retrato de ' +
     escape(fullName) +
-    '" width="1774" height="887" loading="lazy" />'
+    '" width="' +
+    Number(profile.biographyBannerWidth) +
+    '" height="' +
+    Number(profile.biographyBannerHeight) +
+    '" loading="lazy" />'
   : '<div class="template-banner-photo"><span aria-hidden="true">' +
     escape(profile.initials) +
     "</span><small>Fotografía para el banner</small></div>";

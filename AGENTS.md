@@ -1,9 +1,9 @@
-# Plantilla CLEMI · Carlos Murillo
+# CLEMI · Carlos Murillo
 
-- Solicitada como plantilla publicada. Fotos, biografía, email, teléfono e Instagram personal pendientes; no inventar ni copiar datos de otras personas. Cargo: Coordinador Anatómico.
+- Perfil personalizado el 6 de octubre de 2026 con información suministrada por el usuario. Cargo: Coordinador Anatómico. Teléfono: +573232804162. Correo: coordinacionanatomia@clemi.edu.co. No tiene Instagram personal: no mostrar tarjeta ni incluirlo en vCard.
 - Mantener orden Perfil, Trayectoria, Contacto, Conexiones, iconos, animaciones y fondo azul SCCOT en Contacto.
-- Editar content/profile.json; los valores null representan datos pendientes. El renderizador muestra espacios reservados y desactiva contactos sin datos. template:true mantiene noindex y aviso de plantilla.
-- Al completar información, validar enlaces y cambiar template a false. Portafolio y Fundación CLEMI ya tienen enlaces institucionales.
-- Logo y fotografías institucionales compartidos; ningún retrato de Alfredo o Claudia.
+- Editar content/profile.json. template:false activa el perfil completo sin aviso de plantilla. Portafolio y Fundación CLEMI mantienen sus enlaces institucionales.
+- Primera foto suministrada (20-01-58) en portada; segunda (20-01-51) en Trayectoria. Usar las fotos originales: la escala de grises y la transición del banner se aplican en CSS. Ajustes propios en src/profile-theme.css. No modificar el rostro ni copiar retratos de otros perfiles.
+- No se encontró una biografía pública atribuible con seguridad. El texto es una presentación del ámbito de coordinación anatómica, no un currículum; la fuente de CLEMI solo respalda el contexto institucional de formación sobre componentes anatómicos. No inventar estudios, experiencia, títulos ni responsabilidades específicas.
 - index.html y public/contacto.vcf son generados. npm run verify y npm run export:preview antes de publicar.
 - GitHub Pages en main. No afirmar despliegue sin comprobarlo.
