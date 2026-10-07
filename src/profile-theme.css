@@ -22,7 +22,6 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 18%;
-  filter: grayscale(1);
   mask-image: linear-gradient(90deg, #000 72%, transparent 100%);
 }
 .biography-banner::before {
