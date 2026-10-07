@@ -7,3 +7,5 @@
 - No se encontró una biografía pública atribuible con seguridad. El texto es una presentación del ámbito de coordinación anatómica, no un currículum; la fuente de CLEMI solo respalda el contexto institucional de formación sobre componentes anatómicos. No inventar estudios, experiencia, títulos ni responsabilidades específicas.
 - index.html y public/contacto.vcf son generados. npm run verify y npm run export:preview antes de publicar.
 - GitHub Pages en main. No afirmar despliegue sin comprobarlo.
+
+- Ilustración de portada personalizada el 7/10/2026: Anatomía humana: torso en public/assets/carlos-anatomia-illustration.png. Mantener el estilo común azul marino, cristal, marfil y oro. No restaurar el pie de Claudia en este perfil. Prompt y procedencia en docs/ILUSTRACION_PERFIL.md.
